@@ -65,3 +65,6 @@ PROMPT  自動搜尋 END
 
 PAUSE
 
+'///回 AutoWeb-0.iim
+URL GOTO=imacros://run/?m=AutoWeb-0.iim
+
