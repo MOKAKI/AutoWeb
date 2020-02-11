@@ -8,12 +8,41 @@ SET !ERRORIGNORE YES
 SET !EXTRACT_TEST_POPUP NO
 
 '///'///'///'///'///'///'///筆記
+
     '///'///'///'///'///'///'///
     '///LOOP次數
     '///SET !LOOP 1
     '///PAUSE
     '///'///'///'///'///'///'///
-'///'///'///'///'///'///'///'///
+    
+'///'工作
+    '/// https://www.google.com/search?q={{!search}}
+    '/// https://duckduckgo.com/{{!search}}
+    '/// https://www.bing.com/search?q={{!search}}
+    '/// https://www.ask.com/web?o=0&l=dir&qo=serpSearchTopBox&q={{!search}}
+    '/// https://hk.search.yahoo.com/search?fr=yfp-search-sb&p={{!search}}
+'///'程式技術
+    '/// https://stackexchange.com/search?q={{!search}}
+    '/// https://so.csdn.net/so/search/s.do?q={{!search}}
+    '/// https://stackoverflow.com/search?q={{!search}}
+'///'社交    
+    '/// https://www.instagram.com/explore/tags/{{!search}}
+    '/// https://www.facebook.com/search/top/?q={{!search}}
+    '/// https://twitter.com/search?q={{!search}}    
+'///'金
+    '/// https://www.collaction.hk/funding
+'///'商
+    '/// https://www.icris.cr.gov.hk/
+    '/// https://www2.iris.gov.hk/
+    '/// https://e-services.judiciary.hk/dcl/index.jsp?lang=tc
+'///'    
+    '/// https://www.wolframalpha.com/input/?i= 
+    '/// https://trends.google.com.hk/trends/explore?q=
+    '/// https://www.youtube.com/results?search_query=   
+
+
+'///筆記 END
+
 
 
 '///進入據本 自動搜尋 AutoWeb-98.iim
@@ -56,38 +85,4 @@ PAUSE
 URL GOTO=imacros://run/?m=AutoWeb-0.iim
 
 
-
-
-
-'///'///'///'///'///'///'///筆記
-    '///'///'///'///'///'///'///
-    
-'///'工作
-    '/// https://www.google.com/search?q={{!search}}
-    '/// https://duckduckgo.com/{{!search}}
-    '/// https://www.bing.com/search?q={{!search}}
-    '/// https://www.ask.com/web?o=0&l=dir&qo=serpSearchTopBox&q={{!search}}
-    '/// https://hk.search.yahoo.com/search?fr=yfp-search-sb&p={{!search}}
-'///'程式技術
-    '/// https://stackexchange.com/search?q={{!search}}
-    '/// https://so.csdn.net/so/search/s.do?q={{!search}}
-    '/// https://stackoverflow.com/search?q={{!search}}
-'///'社交    
-    '/// https://www.instagram.com/explore/tags/{{!search}}
-    '/// https://www.facebook.com/search/top/?q={{!search}}
-    '/// https://twitter.com/search?q={{!search}}    
-'///'金
-    '/// https://www.collaction.hk/funding
-'///'商
-    '/// https://www.icris.cr.gov.hk/
-    '/// https://www2.iris.gov.hk/
-    '/// https://e-services.judiciary.hk/dcl/index.jsp?lang=tc
-'///'    
-    '/// https://www.wolframalpha.com/input/?i= 
-    '/// https://trends.google.com.hk/trends/explore?q=
-    '/// https://www.youtube.com/results?search_query=   
-
-
-    
-'///'///'///'///'///'///'///'///
 
