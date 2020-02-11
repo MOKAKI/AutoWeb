@@ -54,7 +54,7 @@ PROMPT <BR>搜尋... !search {{!VAR0}}
  TAB T=10
  URL GOTO=https://hk.search.yahoo.com/search?fr=yfp-search-sb&p={{!search}}
 
-PROMPT  自動搜尋 END
+PROMPT 自動搜尋END
 
 PAUSE
 
