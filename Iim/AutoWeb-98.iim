@@ -25,34 +25,28 @@ PROMPT <BR>搜尋... !search {{!VAR0}}
  TAB OPEN
  TAB T=3
  URL GOTO= https://duckduckgo.com/{{!search}}
-
  TAB OPEN
  TAB T=4
- URL GOTO=https://stackexchange.com/search?q={{!search}}
-
+ URL GOTO=https://www.bing.com/search?q={{!search}}
  TAB OPEN
  TAB T=5
- URL GOTO=https://so.csdn.net/so/search/s.do?q={{!search}}
-
+ URL GOTO= https://www.ask.com/web?o=0&l=dir&qo=serpSearchTopBox&q={{!search}}
  TAB OPEN
  TAB T=6
- URL GOTO=https://stackoverflow.com/search?q={{!search}}
-
+ URL GOTO=https://hk.search.yahoo.com/search?fr=yfp-search-sb&p={{!search}}
  TAB OPEN
  TAB T=7
- URL GOTO=https://www.instagram.com/explore/tags/{{!search}}
-
+ URL GOTO=https://www.baidu.com/s?wd={{!search}}
  TAB OPEN
  TAB T=8
- URL GOTO=https://www.facebook.com/search/top/?q={{!search}}
-
+ URL GOTO=https://www.collaction.hk/discovery/project?q={{!search}}
  TAB OPEN
  TAB T=9
- URL GOTO=https://twitter.com/search?q={{!search}}
- 
- TAB OPEN
- TAB T=10
- URL GOTO=https://hk.search.yahoo.com/search?fr=yfp-search-sb&p={{!search}}
+ URL GOTO=https://keywordtool.io/search/keywords/google/2173281?category=web&keyword={{!search}}
+    
+    
+
+
 
 PROMPT 自動搜尋END
 
@@ -63,19 +57,37 @@ URL GOTO=imacros://run/?m=AutoWeb-0.iim
 
 
 
+
+
 '///'///'///'///'///'///'///筆記
     '///'///'///'///'///'///'///
-    '/// https://www.bing.com/search?q=
-    '/// https://www.ask.com/web?o=0&l=dir&qo=serpSearchTopBox&q=
-    '/// https://keywordtool.io/search/keywords/google/2173281?category=web&keyword=
-    '/// https://duckduckgo.com/
+    
+'///'工作
+    '///  https://www.google.com/search?q={{!search}}
+    '///  https://duckduckgo.com/{{!search}}
+    '///  https://www.bing.com/search?q={{!search}}
+    '///  ttps://www.ask.com/web?o=0&l=dir&qo=serpSearchTopBox&q={{!search}}
+    '///  https://hk.search.yahoo.com/search?fr=yfp-search-sb&p={{!search}}
+'///'程式技術
+    '/// https://stackexchange.com/search?q={{!search}}
+    '/// https://so.csdn.net/so/search/s.do?q={{!search}}
+    '/// https://stackoverflow.com/search?q={{!search}}
+'///'社交    
+    '///  https://www.instagram.com/explore/tags/{{!search}}
+    '///  https://www.facebook.com/search/top/?q={{!search}}
+    '///  https://twitter.com/search?q={{!search}}    
+'///'    
+    '///  https://www.wolframalpha.com/input/?i= 
+
     '/// https://trends.google.com.hk/trends/explore?q=
+
+  
+
     '/// https://www.youtube.com/results?search_query=
-    '/// https://www.baidu.com/s?wd=
-    '/// https://www.collaction.hk/discovery/project?q=
+
     
+
+
     
-    
-    '///  https://www.wolframalpha.com/input/?i=
 '///'///'///'///'///'///'///'///
 
