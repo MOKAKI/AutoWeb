@@ -15,35 +15,7 @@ SET !EXTRACT_TEST_POPUP NO
     '///PAUSE
     '///'///'///'///'///'///'///
     
-'///'工作
-    '/// https://www.google.com/search?q={{!search}}
-    '/// https://duckduckgo.com/{{!search}}
-    '/// https://www.bing.com/search?q={{!search}}
-    '/// https://www.ask.com/web?o=0&l=dir&qo=serpSearchTopBox&q={{!search}}
-    '/// https://hk.search.yahoo.com/search?fr=yfp-search-sb&p={{!search}}
-'///'程式技術
-    '/// https://stackexchange.com/search?q={{!search}}
-    '/// https://so.csdn.net/so/search/s.do?q={{!search}}
-    '/// https://stackoverflow.com/search?q={{!search}}
-'///'社交    
-    '/// https://www.instagram.com/explore/tags/{{!search}}
-    '/// https://www.facebook.com/search/top/?q={{!search}}
-    '/// https://twitter.com/search?q={{!search}}    
-'///'金
-    '/// https://www.collaction.hk/funding
-'///'商
-    '/// https://www.icris.cr.gov.hk/
-    '/// https://www2.iris.gov.hk/
-    '/// https://e-services.judiciary.hk/dcl/index.jsp?lang=tc
-'///'    
-    '/// https://www.wolframalpha.com/input/?i= 
-    '/// https://trends.google.com.hk/trends/explore?q=
-    '/// https://www.youtube.com/results?search_query=   
-    '/// https://www.collaction.hk/discovery/project?q={{!search}}
-
 '///筆記 END
-
-
 
 '///進入據本 完全Setup新工作 AutoWeb-000.iim
 
@@ -52,6 +24,88 @@ PROMPT <BR>進入據本<BR>完全Setup新工作<SP>AutoWeb-000.iim<BR><BR>請 !s
 
 
 '///'///'///'///'///'///'///'///'///'///'///未
+
+
+
+
+
+
+
+
+
+'///確定CSV路徑
+TAB T=1
+URL GOTO=http://somethingmarket.org/article.php?id=9
+PROMPT <BR>記錄數據位置:<BR>請打開卓面上的[Database]<BR><BR>複製路徑再貼上到這裡 !Saveulr C:\.....
+
+'///Data檔名
+PROMPT　<BR><BR>填寫帳號名稱:<BR>請隨便填寫9個或以上[包括9]的任何字符<BR>(最好不要使用,可以用，因為,對本錢包程式有相沖。但,不影響在其他程式中的使用。)<BR><BR>我們將要使用<SP>[安全散列算法SHA（Secure<SP>Hash<SP>Algorithm）]<BR>，創造一個獨一無二的、全新的以太錢包地址，以及您在Something<SP>Mrket使用的帳號。　!walletOVG any...ヽ(✿ﾟ▽ﾟ)ノ...🐳
+
+
+'///GetNewWallet
+PROMPT　<BR>將會進入自動操作<BR><BR>自動操作期間請不要人手操作<BR>請等待提示再選擇...
+TAB OPEN
+TAB T=2
+URL GOTO=https://www.myetherwallet.com/#generate-wallet
+TAG POS=1 TYPE=IMG ATTR=SRC:https://www.myetherwallet.com/images/icon-x.svg
+TAG POS=1 TYPE=A ATTR=TXT:New<SP>Wallet
+SET !ENCRYPTION NO
+TAG POS=1 TYPE=INPUT:PASSWORD ATTR=NAME:password CONTENT={{!walletOVG}}
+TAG POS=2 TYPE=SECTION ATTR=TXT:Create<SP>New<SP>Wallet<SP>Enter<SP>a<SP>password<SP>Create*
+TAG POS=1 TYPE=A ATTR=TXT:Create<SP>New<SP>Wallet
+
+
+'///SaveKeystore
+PROMPT <BR>（–<SP>o<SP>–<SP>）<SP>完成一半了~<BR><BR>接下來將要生成[Keystore文件]<BR>[Keystore文件]是一個需要保密的文件<BR>有些以太錢包程式需要使用他來打開或操作帳戶資產<BR><BR>請選擇您想用來存放的位置吧~
+TAG POS=1 TYPE=SPAN ATTR=TXT:Keystore<SP>File<SP>(UTC<SP>/<SP>JSON)
+ONDOWNLOAD FOLDER=* FILE=* WAIT=YES
+TAG POS=1 TYPE=SPAN ATTR=TXT:I<SP>understand.<SP>Continue.
+
+
+'///SaveKeystore
+PROMPT　<BR>將會進入自動操作<BR><BR>自動操作期間請不要人手操作<BR>請等待提示再選擇...
+TAG POS=1 TYPE=TEXTAREA ATTR=TXT:* EXTRACT=txt
+SET !VAR0 {{!EXTRACT}}
+set !extract null
+TAG POS=1 TYPE=SPAN ATTR=TXT:Save<SP>Your<SP>Address.
+TAG POS=1 TYPE=SPAN ATTR=TXT:Private<SP>Key
+TAG POS=1 TYPE=INPUT:RADIO ATTR=NAME:238
+
+'///GetData
+TAG POS=1 TYPE=TEXTAREA ATTR=ID:aria6 CONTENT={{!var0}}
+TAG POS=1 TYPE=A ATTR=TXT:Unlock
+TAG POS=8 TYPE=INPUT:TEXT ATTR=* EXTRACT=txt
+SET !VAR1 {{!EXTRACT}}
+set !extract null
+'///Fireulr,OVGtxt,add,PvK,Id,Ps,
+ADD !EXTRACT {{!Saveulr}},{{!walletOVG}},{{!var1}},{{!var0}},{{!var1}},{{!var1}}{{!walletOVG}},
+
+
+'///SaveData
+SAVEAS TYPE=EXTRACT FOLDER={{!Saveulr}} FILE={{!walletOVG}}.txt
+
+
+
+
+
+'///CSV路徑
+SET !DATASOURCE {{!walletOVG}}.txt
+SET !DATASOURCE_LINE 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
