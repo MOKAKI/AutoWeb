@@ -15,7 +15,7 @@ SET !EXTRACT_TEST_POPUP NO
     '///SET !LOOP 1
     '///PAUSE
     '///'///'///'///'///'///'///
-    '///'///'///'///'///'///'///
+'///'///'///'///'///'///'///'///
 
 '///進入據本 自動搜尋 AutoWeb-98.iim
 
@@ -30,35 +30,48 @@ PROMPT <BR>搜尋... !search {{!VAR0}}
  URL GOTO=https://www.google.com/search?q={{!search}}
  TAB OPEN
  TAB T=3
- URL GOTO={{!search}}
+ URL GOTO=https://www.wolframalpha.com/input/?i={{!search}}
 
  TAB OPEN
  TAB T=4
- URL GOTO={{!search}}
+ URL GOTO=https://stackexchange.com/search?q={{!search}}
 
  TAB OPEN
  TAB T=5
- URL GOTO={{!search}}
+ URL GOTO=https://so.csdn.net/so/search/s.do?q={{!search}}
 
  TAB OPEN
  TAB T=6
- URL GOTO={{!search}}
+ URL GOTO=https://stackoverflow.com/search?q={{!search}}
 
  TAB OPEN
  TAB T=7
- URL GOTO={{!search}}
+ URL GOTO=https://www.instagram.com/explore/tags/{{!search}}
 
  TAB OPEN
  TAB T=8
- URL GOTO={{!search}}
+ URL GOTO=https://www.facebook.com/search/top/?q={{!search}}
 
  TAB OPEN
  TAB T=9
- URL GOTO={{!search}}
+ URL GOTO=https://twitter.com/search?q={{!search}}
  
  TAB OPEN
  TAB T=10
- URL GOTO={{!search}}
+ URL GOTO=https://hk.search.yahoo.com/search?fr=yfp-search-sb&p={{!search}}
+
+
+'///'///'///'///'///'///'///筆記
+    '///'///'///'///'///'///'///
+    '/// https://www.bing.com/search?q=
+    '/// https://www.ask.com/web?o=0&l=dir&qo=serpSearchTopBox&q=
+    '/// https://keywordtool.io/search/keywords/google/2173281?category=web&keyword=
+    '/// https://duckduckgo.com/
+    '/// https://trends.google.com.hk/trends/explore?q=
+    '/// https://www.youtube.com/results?search_query=
+    '/// https://www.baidu.com/s?wd=
+    '/// https://www.collaction.hk/discovery/project?q=
+'///'///'///'///'///'///'///'///
 
 
 PROMPT  自動搜尋 END
