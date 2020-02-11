@@ -66,7 +66,7 @@ URL GOTO=imacros://run/?m=AutoWeb-0.iim
     '/// https://www.google.com/search?q={{!search}}
     '/// https://duckduckgo.com/{{!search}}
     '/// https://www.bing.com/search?q={{!search}}
-    '/// ttps://www.ask.com/web?o=0&l=dir&qo=serpSearchTopBox&q={{!search}}
+    '/// https://www.ask.com/web?o=0&l=dir&qo=serpSearchTopBox&q={{!search}}
     '/// https://hk.search.yahoo.com/search?fr=yfp-search-sb&p={{!search}}
 '///'程式技術
     '/// https://stackexchange.com/search?q={{!search}}
