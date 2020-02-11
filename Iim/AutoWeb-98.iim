@@ -23,17 +23,40 @@ SET !EXTRACT_TEST_POPUP NO
 PROMPT 進入據本 自動搜尋 AutoWeb-98.iim
 
 
-PROMPT <BR>獲取數據位置，用於登入google:<BR>請打開卓面上的[Database]<BR><BR>找到您要使用的[數據塊].txt<BR><BR>複製[數據塊].txt的檔案名稱貼上到這裡<BR><BR>不需要[.txt] !DataName {{!VAR0}}
+PROMPT <BR>搜尋... !search {{!VAR0}}
+'///{{!search}}
+ TAB OPEN
+ TAB T=2
+ URL GOTO=https://www.google.com/search?q={{!search}}
+ TAB OPEN
+ TAB T=3
+ URL GOTO={{!search}}
 
+ TAB OPEN
+ TAB T=4
+ URL GOTO={{!search}}
 
-'///CSV路徑
-SET !DATASOURCE {{!DataName}}.txt
-SET !DATASOURCE_LINE 1
+ TAB OPEN
+ TAB T=5
+ URL GOTO={{!search}}
 
+ TAB OPEN
+ TAB T=6
+ URL GOTO={{!search}}
 
+ TAB OPEN
+ TAB T=7
+ URL GOTO={{!search}}
 
-'///godaddyLoing
-TAB OPEN
-TAB T=2
-URL GOTO=https://sso.godaddy.com/?realm=idp&path=%2Fproducts&app=account
-TAG POS=1 TYPE=INPUT:TEXT FORM=NAME:NoFormName ATTR=ID:username CONTENT={{!COL3}}
+ TAB OPEN
+ TAB T=8
+ URL GOTO={{!search}}
+
+ TAB OPEN
+ TAB T=9
+ URL GOTO={{!search}}
+ 
+ TAB OPEN
+ TAB T=10
+ URL GOTO={{!search}}
+
