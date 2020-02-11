@@ -39,7 +39,7 @@ SET !EXTRACT_TEST_POPUP NO
     '/// https://www.wolframalpha.com/input/?i= 
     '/// https://trends.google.com.hk/trends/explore?q=
     '/// https://www.youtube.com/results?search_query=   
-
+    '/// https://www.collaction.hk/discovery/project?q={{!search}}
 
 '///筆記 END
 
@@ -66,9 +66,7 @@ PROMPT <BR>搜尋... !search {{!VAR0}}
  TAB OPEN
  TAB T=7
  URL GOTO=https://www.baidu.com/s?wd={{!search}}
- TAB OPEN
- TAB T=8
- URL GOTO=https://www.collaction.hk/discovery/project?q={{!search}}
+
 
 
 
