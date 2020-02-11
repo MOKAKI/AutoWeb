@@ -60,3 +60,8 @@ PROMPT <BR>搜尋... !search {{!VAR0}}
  TAB T=10
  URL GOTO={{!search}}
 
+
+PROMPT  自動搜尋 END
+
+PAUSE
+
