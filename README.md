@@ -16,6 +16,8 @@ AutoWeb--自動收入程式
 
 ## .exe
 
+[AutoWeb202002150625](https://mega.nz/#!EZgjSShB!l1Ve8ZN-z4vl1n0yzAjZqc1oTZUMYh3OUHx3NeHFb5w)
+
 [AutoWeb202002150455](https://mega.nz/#!5FAg2I4D!lbNyuvPRZBBL7O2W04-u62SbfG09wA87Ksj7_hDYkew)
 
 [AutoWeb0.001.zip](http://bit.ly/2UH90xS)
