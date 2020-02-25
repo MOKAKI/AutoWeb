@@ -23,6 +23,16 @@ AutoWeb--自動收入程式
 [AutoWeb0.001.zip](http://bit.ly/2UH90xS)
 
 
+
+### Ai酒吧管理系統
+
+[AutoWeb-Ai酒吧管理系統202002260552](https://mega.nz/#!JJ5DnAqA!mAeb5hX5qMrKA-0gEdfzkvZfTWqu17i3IhuxTL1RAOU)
+
+
+
+
+
+
 ---
 
 
