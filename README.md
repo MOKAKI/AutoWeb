@@ -24,11 +24,11 @@ AutoWeb--自動收入程式
 
 
 
-### Ai酒吧管理系統
+### Ai酒吧管理系統 用不到
 
 [AutoWeb-Ai酒吧管理系統202002260552](https://mega.nz/#!JJ5DnAqA!mAeb5hX5qMrKA-0gEdfzkvZfTWqu17i3IhuxTL1RAOU)
 
-
+今晚直播 星期五  28/02  03:30 杜塞爾多夫VS哈化柏林  03:45 尼姆VS馬賽 04:00 諾域治VS李斯特城 皇家蘇斯達VS華拉度列 01:00 	薩爾斯堡VS法蘭克福    	
 
 
 
