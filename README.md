@@ -7,7 +7,7 @@ https://www.youtube.com/watch?v=Yx39Nv1f5lA
 # AutoWeb
 AutoWeb--自動收入程式
 
-[Admin20200309](https://mega.nz/#!sFxzyB4a!_BknmDqyHyeJ0z2swbSaB1grXmaol-b-YxxnArcGmEc)
+[AutoWeb_A_20200309.zip](https://mega.nz/#!YFwzzLSJ!sNWu4A5KEvdxYfUnqgP8ivvS9xGSwqn34RJT0iQ2g3s)
 
 
 #[大道至簡]()
