@@ -1,0 +1,32 @@
+'///'///'///'///'///'///'///'///
+'///不提示一般錯誤
+SET !ERRORIGNORE YES
+'///每行等待時間
+SET !TIMEOUT_STEP 3
+'///不彈出獲取信息
+SET !EXTRACT_TEST_POPUP NO
+'///'///'///'///'///'///'///'///
+'///LOOP次數
+'///SET !LOOP 1
+'///PAUSE
+'///'///'///'///'///'///'///'///
+
+
+
+'///進入據本<SP>_Atw1.iim<BR>{{!COL1}}<SP>您好<BR>
+
+
+'///CSV路徑
+TAG POS=1 TYPE=TEXTAREA ATTR=ID:MywalletOVGBox EXTRACT=txt
+SET !VAR1 {{!EXTRACT}}
+set !extract null
+'///VAR1已經=客個dataUls
+SET !DATASOURCE {{!VAR1}}.txt
+SET !DATASOURCE_LINE 1
+
+TAB T=1
+PROMPT {{!COL1}}<SP>您好<BR><BR>date={{!COL2}}<BR>btn={{!COL4}}<BR>請選擇<BR><BR>0=開新號<BR>11=整網(godaddy,google,drv,cssmoban)<BR>98=自動搜尋<BR>99=....<BR>DN=AutoWeb-Ai酒吧管理系統<BR>00=暫停<BR>END=CLOSE<BR> !SL 00
+
+
+URL GOTO=imacros://run/?m=_Atw/_Atw{{!SL}}.iim
+

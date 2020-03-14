@@ -1,0 +1,24 @@
+'///'///'///'///'///'///'///'///
+'///不提示一般錯誤
+SET !ERRORIGNORE YES
+'///每行等待時間
+SET !TIMEOUT_STEP 3
+'///不彈出獲取信息
+SET !EXTRACT_TEST_POPUP NO
+'///'///'///'///'///'///'///'///
+'///LOOP次數
+'///SET !LOOP 1
+'///PAUSE
+'///'///'///'///'///'///'///'///
+
+
+'///_Atw00.iim
+'///GOTO=imacros://run/?m=_Atw1.iim
+
+
+PAUSE
+
+
+
+TAB T=1
+URL GOTO=imacros://run/?m=_Atw/_Atw1.iim

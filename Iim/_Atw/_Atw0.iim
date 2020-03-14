@@ -1,0 +1,122 @@
+'///_AMOK_
+'///'///'///'///'///'///'///'///
+'///不提示一般錯誤
+SET !ERRORIGNORE YES
+'///每行等待時間
+SET !TIMEOUT_STEP 3
+'///不彈出獲取信息
+SET !EXTRACT_TEST_POPUP NO
+    '///'///'///'///'///'///'///'///
+    '///LOOP次數
+    '///SET !LOOP 1
+    '///PAUSE
+    '///TAB CLOSEALLOTHERS
+    '///TAB CLOSE
+    '///'///'///'///'///'///'///'///    
+    '///PROMPT <BR>'///修改完'///<BR>NTENT=file:///{{!COL3}}Pag<BR>
+    '///PAUSE
+    '///PROMPT <BR>_AtwEND
+    '///URL GOTO=imacros://run/?m=_Atw/_Atw1.iim
+    '///'///'///'///'///'///'///'///
+
+
+'///開新AC_AMOK_0_Start_0
+
+
+
+'///由bat打開iim用FF執行'///由bat打開iim用FF執行'///由bat打開iim用FF執行
+'///必須在.../Page/AutoWeb.html打開
+TAB T=1
+'///現在網此複製=VAR1
+SET !VAR1 {{!URLCURRENT}}
+
+'///因一有用,用二到址
+TAB OPEN
+TAB T=2
+URL GOTO={{!VAR1}}
+'///回一,點GetURLCURRENT
+'///到Data,用於記錄客uls
+TAB T=1
+TAG POS=1 TYPE=A ATTR=ID:GetURLCURRENT
+WAIT SECONDS=3
+SET !VAR1 {{!URLCURRENT}}
+TAB T=2
+TAG POS=1 TYPE=TEXTAREA ATTR=ID:a1 CONTENT={{!VAR1}}
+WAIT SECONDS=3
+TAG POS=1 TYPE=TEXTAREA ATTR=ID:a1 EXTRACT=txt
+SET !VAR1 {{!EXTRACT}}
+set !extract null
+'///VAR1已經=客個dataUls
+
+'///Data檔名
+PROMPT <BR>創建ID<BR>您的名稱:<BR>請隨便填寫除,外<br>任意字符<SP>(最少9個字符)<BR><BR>我們將要使用<SP>[安全散列算法SHA（Secure<SP>Hash<SP>Algorithm）]<BR>，創造一個獨一無二的、全新的Something錢包，以及您在Something<SP>Mrket使用的帳號。　!walletOVG any...ヽ(✿ﾟ▽ﾟ)ノ...🐳{{!NOW:yyyymmddhhnnss}}
+
+'///SaveNOWTime
+SET !VAR2 {{!NOW:yyyymmddhhnnss}}
+
+TAB T=3
+URL GOTO=https://www.bitaddress.org/
+TAG POS=1 TYPE=LI ATTR=ID:brainwallet
+TAG POS=1 TYPE=INPUT:CHECKBOX ATTR=ID:brainpassphraseshow CONTENT=YES
+TAG POS=1 TYPE=INPUT:TEXT ATTR=ID:brainpassphrase CONTENT={{!walletOVG}}{{!VAR1}}{{!VAR2}}
+TAG POS=1 TYPE=DIV ATTR=TXT:Confirm<SP>Passphrase:<SP>Algorithm:<SP>SHA256(passphrase)
+ONDIALOG POS=1 BUTTON=OK CONTENT=
+TAG POS=1 TYPE=INPUT:BUTTON ATTR=ID:brainview
+
+TAG POS=1 TYPE=SPAN ATTR=ID:brainbtcaddress EXTRACT=txt
+SET !VAR3 {{!EXTRACT}}
+set !extract null
+
+
+WAIT SECONDS=2
+
+
+
+
+
+'///SaveData
+'///帳號名,Data位,當時SaveNOWTime,BtcAc
+'///{{!walletOVG}},{{!VAR1}},{{!VAR2}},{{!VAR3}}
+ADD !EXTRACT {{!walletOVG}},{{!VAR1}},{{!VAR2}},{{!VAR3}}
+SAVEAS TYPE=EXTRACT FOLDER={{!VAR1}}Data FILE={{!walletOVG}}.txt
+
+
+
+TAB CLOSE
+TAB CLOSE
+URL GOTO=file:///{{!VAR1}}/Page/_AtwHomePage.html
+TAG POS=1 TYPE=TEXTAREA ATTR=ID:MywalletOVGBox  CONTENT={{!walletOVG}}
+
+
+
+
+
+PROMPT <BR>'///修改'///<BR>NTENT=file:///{{!COL3}}Pag<BR>
+'///CSV路徑
+TAG POS=1 TYPE=TEXTAREA ATTR=ID:MywalletOVGBox EXTRACT=txt
+SET !VAR1 {{!EXTRACT}}
+set !extract null
+'///VAR1已經=客個dataUls
+SET !DATASOURCE {{!VAR1}}.txt
+SET !DATASOURCE_LINE 1
+'///顯示Iframe
+TAG POS=1 TYPE=INPUT:TEXT FORM=NAME:NoFormName ATTR=ID:aaaaaaa001WebChgiframeSrc CONTENT=file:///{{!COL2}}Page/
+TAG POS=6 TYPE=INPUT:BUTTON FORM=NAME:NoFormName ATTR=*
+TAG POS=1 TYPE=INPUT:TEXT FORM=NAME:NoFormName ATTR=ID:aa7WebChgiframeSrc CONTENT=file:///{{!COL2}}Iim/
+TAG POS=7 TYPE=INPUT:BUTTON FORM=NAME:NoFormName ATTR=*
+
+
+URL GOTO=imacros://run/?m=_Atw/_Atw1.iim
+
+
+
+
+
+
+
+
+
+
+
+
+

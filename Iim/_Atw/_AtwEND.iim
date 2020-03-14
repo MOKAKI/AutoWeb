@@ -1,0 +1,13 @@
+'///'///'///'///'///'///'///自動搜尋'///'///'///'///'///'///'///
+'///每行等待時間
+SET !TIMEOUT_STEP 3
+VERSION BUILD=9030808 RECORDER=FX
+'///不提示一般錯誤
+SET !ERRORIGNORE YES
+'///不彈出獲取信息
+SET !EXTRACT_TEST_POPUP NO
+
+
+TAB T=1
+TAB CLOSEALLOTHERS
+TAB CLOSE

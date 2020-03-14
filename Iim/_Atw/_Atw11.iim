@@ -1,0 +1,115 @@
+    '///'///'///'///'///'///'///'///
+
+'///每行等待時間
+SET !TIMEOUT_STEP 3
+VERSION BUILD=9030808 RECORDER=FX
+'///不提示一般錯誤
+SET !ERRORIGNORE YES
+
+'///不彈出獲取信息
+SET !EXTRACT_TEST_POPUP NO
+    '///'///'///'///'///'///'///'///
+    '///LOOP次數
+    '///SET !LOOP 1
+    '///PAUSE
+    '///'///'///'///'///'///'///'///
+
+'///進入據本- 整網 -AutoWeb-11.iim
+
+PROMPT <BR>獲取數據位置，用於登入google:<BR>請打開卓面上的[Database]<BR><BR>找到您要使用的[數據塊].txt<BR><BR>複製[數據塊].txt的檔案名稱貼上到這裡<BR><BR>不需要[.txt] !DataName {{!VAR0}}
+
+
+'///CSV路徑
+SET !DATASOURCE {{!DataName}}.txt
+SET !DATASOURCE_LINE 1
+
+
+
+'///godaddyLoing
+TAB OPEN
+TAB T=2
+URL GOTO=https://sso.godaddy.com/?realm=idp&path=%2Fproducts&app=account
+TAG POS=1 TYPE=INPUT:TEXT FORM=NAME:NoFormName ATTR=ID:username CONTENT={{!COL3}}
+TAG POS=1 TYPE=INPUT:TEXT FORM=NAME:NoFormName ATTR=ID:username CONTENT={{!COL3}}
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(2)>DIV>DIV>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>DIV>DIV:nth-of-type(3)>FORM>DIV:nth-of-type(2)>FIELDSET" BUTTON=0
+SET !ENCRYPTION NO
+EVENTS TYPE=KEYPRESS SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(2)>DIV>DIV>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>DIV>DIV:nth-of-type(3)>FORM>DIV:nth-of-type(2)>INPUT" CHARS="{{!COL4}}"
+
+SET !VAR0 EVAL("var randomNumber=Math.floor(Math.random()*10); randomNumber;") 
+WAIT SECONDS={{!VAR0}}
+EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>DIV:nth-of-type(2)>DIV>DIV>DIV:nth-of-type(2)>DIV>DIV>DIV>DIV>DIV" BUTTON=0
+TAG POS=1 TYPE=DIV ATTR=ID:remember-me-container
+TAG POS=1 TYPE=BUTTON FORM=NAME:NoFormName ATTR=ID:submitBtn
+SET !VAR0 EVAL("var randomNumber=Math.floor(Math.random()*10); randomNumber;") 
+WAIT SECONDS={{!VAR0}}
+'///godaddyLoing-END
+
+
+
+
+'///TAB OPEN
+'///TAB T=3
+'///URL GOTO=https://ifastnet.com/portal/clientarea.php
+'///SET !VAR0 EVAL("var randomNumber=Math.floor(Math.random()*10); randomNumber;") 
+'///WAIT SECONDS={{!VAR0}}
+'///EVENT TYPE=MOUSEDOWN SELECTOR="HTML>BODY>DIV>SECTION:nth-of-type(2)>DIV>DIV>DIV>DIV>DIV:nth-of-type(4)>DIV>FORM>DIV>INPUT" BUTTON=0
+'///EVENT TYPE=MOUSEMOVE SELECTOR="HTML>BODY>DIV>SECTION:nth-of-type(2)>DIV>DIV>DIV>DIV>DIV:nth-of-type(4)>DIV>FORM>DIV>INPUT" POINT="(151,246)"
+'///EVENT TYPE=MOUSEUP POINT="(151,246)"
+'///EVENTS TYPE=KEYPRESS SELECTOR="HTML>BODY>DIV>SECTION:nth-of-type(2)>DIV>DIV>DIV>DIV>DIV:nth-of-type(4)>DIV>FORM>DIV>INPUT" CHARS="{{!COL5}}"
+'///EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>SECTION:nth-of-type(2)>DIV>DIV>DIV>DIV>DIV:nth-of-type(4)>DIV>FORM>DIV:nth-of-type(2)>INPUT" BUTTON=0
+'///SET !VAR0 EVAL("var randomNumber=Math.floor(Math.random()*10); randomNumber;") 
+'///WAIT SECONDS={{!VAR0}}
+'///SET !ENCRYPTION NO
+'///EVENT TYPE=KEYPRESS SELECTOR="HTML>BODY>DIV>SECTION:nth-of-type(2)>DIV>DIV>DIV>DIV>DIV:nth-of-type(4)>DIV>FORM>DIV:nth-of-type(2)>INPUT" CHAR="3"
+'///EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV>SECTION:nth-of-type(2)>DIV>DIV>DIV>DIV>DIV:nth-of-type(4)>DIV>FORM>DIV:nth-of-type(2)>INPUT" BUTTON=0
+'///EVENTS TYPE=KEYPRESS SELECTOR="HTML>BODY>DIV>SECTION:nth-of-type(2)>DIV>DIV>DIV>DIV>DIV:nth-of-type(4)>DIV>FORM>DIV:nth-of-type(2)>INPUT" CHARS="{{!COL6}}"
+'///SET !VAR0 EVAL("var randomNumber=Math.floor(Math.random()*10); randomNumber;") 
+'///WAIT SECONDS={{!VAR0}}
+'///PROMPT <BR>手動login<BR>
+'///PAUSE
+'///TAG POS=1 TYPE=INPUT:SUBMIT FORM=ACTION:https://ifastnet.com/portal/dologin.php ATTR=ID:login
+'///SET !VAR0 EVAL("var randomNumber=Math.floor(Math.random()*10); randomNumber;") 
+'///WAIT SECONDS={{!VAR0}}
+
+
+
+TAB OPEN
+TAB T=3
+URL GOTO=cssmoban.com/
+
+TAB OPEN
+TAB T=4
+URL GOTO=https://drv.tw/
+
+TAB T=5
+URL GOTO=https://accounts.google.com/
+SET !VAR0 EVAL("var randomNumber=Math.floor(Math.random()*10); randomNumber;") 
+WAIT SECONDS={{!VAR0}}
+TAG POS=1 TYPE=INPUT:EMAIL FORM=NAME:NoFormName ATTR=ID:identifierId CONTENT={{!COL1}}
+TAG POS=1 TYPE=H1 ATTR=ID:headingText
+TAG POS=2 TYPE=SPAN ATTR=TXT:下一步
+SET !VAR0 EVAL("var randomNumber=Math.floor(Math.random()*10); randomNumber;") 
+WAIT SECONDS={{!VAR0}}
+SET !ENCRYPTION NO
+TAG POS=1 TYPE=INPUT:PASSWORD FORM=ACTION:/signin/v2/challenge/password/empty ATTR=NAME:password CONTENT={{!COL2}}
+SET !ENCRYPTION NO
+TAG POS=1 TYPE=INPUT:PASSWORD FORM=ACTION:/signin/v2/challenge/password/empty ATTR=NAME:password CONTENT={{!COL2}}
+SET !VAR0 EVAL("var randomNumber=Math.floor(Math.random()*10; randomNumber;") 
+WAIT SECONDS={{!VAR0}}
+TAG POS=2 TYPE=SPAN ATTR=TXT:下一步
+PROMPT <BR>驗證後按左下con<BR> 
+PAUSE
+TAG POS=2 TYPE=SPAN ATTR=TXT:下一步
+SET !VAR0 EVAL("var randomNumber=Math.floor(Math.random()*10); randomNumber;") 
+WAIT SECONDS={{!VAR0}}
+URL GOTO=https://drive.google.com/drive/my-drive
+
+
+PROMPT <BR>據本整網-已完成<BR>
+
+PAUSE
+'///選擇據本
+URL GOTO=imacros://run/?m=_Atw/_Atw1.iim
+
+
+
