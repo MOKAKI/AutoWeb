@@ -1,0 +1,120 @@
+
+/*AutoWeb20120214******************************************************/
+
+
+/*AutoWebCss*/
+
+.dropBox{height: 100%;width: 100%;}
+.opacityCss03{opacity : .3;}
+.opacityCss03:hover{opacity : 1;}
+
+.AutoWebBox,
+.AutoWebBox  iframe,
+.AutoWebBox  textarea ,
+.AutoWebBox  input 
+{background-color: rgba(0, 0, 0,0);color: rgba(255, 255, 255,1);}
+
+.AutoWebBox{
+resize: both;
+height: 100%;width: 100%;
+position: sticky  ; float: left ;
+overflow:hidden;
+background: url("https://i.pinimg.com/originals/fd/30/ac/fd30ac04b661c2f7034a63252169564c.gif") center center fixed no-repeat;background-size: cover;}
+
+.AutoWebBox iframe,.AutoWebBox textarea,.AutoWebChgtextareaSrc
+{position: absolute;}
+
+.AutoWebBox iframe{
+transform: scale(.8);
+transform-origin:0 0;
+height:calc(123% ) ;
+width:calc(123% );
+margin: 0px 0 0 0;
+top: 10PX;left: 0;
+}
+
+.AutoWebBox textarea{top: 10PX;right: 0;left: 0;bottom: 20px;height:calc(100% - 20px ) ;
+width:calc(100% );}
+
+.AutoWebBox textarea{
+z-index: 2;resize: both;background-color: rgba(0, 0, 0,.8);}
+
+
+
+.AutoWebChgtextareaSrc{
+z-index: 2;overflow:hidden;
+font-size: 15px;line-height:50px;height:50px;
+background: url("https://i.pinimg.com/originals/fd/30/ac/fd30ac04b661c2f7034a63252169564c.gif") center center fixed no-repeat;background-size: cover;
+}
+
+
+
+
+
+
+
+
+.AutoWebBox button{
+z-index: 2;overflow:hidden;
+font-size: 20px;
+background-color: rgba(255, 255, 255,.8);position: absolute;
+border-top-right-radius:50px;
+border-bottom-right-radius:50px;transition-duration: 2s;}
+
+
+
+
+
+
+
+.AutoWebChgiframeSrc{
+z-index: 1;overflow:hidden;
+position: absolute;
+
+background-color: rgba(0, 0, 0,.8);
+transition-duration: 2s;
+
+
+}
+
+
+
+
+.AutoWebBox button{top: -25px;left: -180px;height:50px;width:200px;}
+.AutoWebBox button:hover{top: 0px;left: 0%;transition-duration: 1s;}
+
+.AutoWebChgtextareaSrc{bottom: -5px;right: 95%;width:200px;
+border-top-right-radius:50px;border-bottom-right-radius:50px;
+transition-duration: 2s;
+}
+.AutoWebChgtextareaSrc:hover{bottom: 0px;right: 80%;transition-duration: 1s;}
+
+
+.AutoWebChgiframeSrc{right: -185px;bottom: 80px;height:50px;
+width:200px;}
+
+.AutoWebChgiframeSrc:hover{
+border-radius:5px;transition-duration: 1s;right: 0px;padding: 0 -0 0 50px;
+}
+
+
+
+
+
+
+
+
+/*AutoWeb-DN 20200301******************************************************/
+
+
+textarea,input,div {background-color: rgba(0, 0, 0,.5);color: rgba(255, 255, 255,.8);}
+
+
+
+#AllTextDatetextarea{color: #fff;background: url("https://s2.ax1x.com/2020/02/26/3NPVW6.jpg") center center fixed no-repeat;background-size: 100%;
+position: absolute;top: 0;left: 0;right: 0;bottom: 0;
+height:100%;width:100%;font-size: 2em;padding: 10% 20% 10% 20%;z-index:-1}
+.Hidd3enBox{height:0px;width:0px;position: absolute;left: -100%;}
+
+/*AutoWeb-DN 20200301 END*****************************************************/
+

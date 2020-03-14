@@ -1,0 +1,143 @@
+
+/*AutoWeb20120214******************************************************/
+
+
+/*AutoWebCss*/
+=
+.dropBox{height: 100%;width: 100%;}
+.opacityCss03{opacity : .3;transition-duration: 2s;}
+.opacityCss03:hover{opacity : 1;transition-duration: 0s;}
+
+.AutoWebBox,
+.AutoWebBox  iframe,
+.AutoWebBox  textarea ,
+.AutoWebBox  input 
+{background-color: rgba(0, 0, 0,0);color: rgba(255, 255, 255,1);}
+
+.AutoWebBox{
+resize: ;
+height: 100%;width: 100%;
+position: sticky  ; float: left ;
+overflow:hidden;
+background: url("https://media.giphy.com/media/11lwHbBOvT48CY/giphy.gif") center center fixed no-repeat;background-size: cover;}
+
+.AutoWebBox iframe,.AutoWebBox textarea,.AutoWebChgtextareaSrc
+{position: absolute;}
+
+.AutoWebBox iframe{
+transform: scale(.8);
+transform-origin:0 0;
+height:calc(123% ) ;
+width:calc(123% );
+margin: 0px 0 0 0;
+top: 10PX;left: 0;
+}
+
+.AutoWebBox textarea{top: 10PX;right: 0;left: 0;bottom: 20px;height:calc(100% - 20px ) ;
+width:calc(100% );}
+
+.AutoWebBox textarea{
+z-index: 2;resize: both;background-color: rgba(0, 0, 0,.8);}
+
+
+
+.AutoWebChgtextareaSrc{
+z-index: 2;overflow:hidden;
+font-size: 15px;line-height:50px;height:50px;
+background: url("https://media.giphy.com/media/11lwHbBOvT48CY/giphy.gif") center center fixed no-repeat;background-size: cover;
+}
+
+
+
+
+
+
+
+
+.AutoWebBox button{
+z-index: 2;overflow:hidden;
+font-size: 20px;
+background-color: rgba(255, 255, 255,.8);position: absolute;
+border-top-right-radius:50px;
+border-bottom-right-radius:50px;transition-duration: 2s;}
+
+
+
+
+
+
+
+.AutoWebChgiframeSrc{
+z-index: 1;overflow:hidden;
+position: absolute;
+
+background-color: rgba(0, 0, 0,.8);
+transition-duration: 2s;
+
+
+}
+
+
+
+
+.AutoWebBox button{top: -25px;left: -180px;height:50px;width:200px;}
+.AutoWebBox button:hover{top: 0px;left: 0%;transition-duration: 1s;}
+
+.AutoWebChgtextareaSrc{bottom: -5px;right: 95%;width:200px;
+border-top-right-radius:50px;border-bottom-right-radius:50px;
+transition-duration: 2s;
+}
+.AutoWebChgtextareaSrc:hover{bottom: 0px;right: 80%;transition-duration: 1s;}
+
+
+.AutoWebChgiframeSrc{right: -185px;bottom: 80px;height:50px;
+width:200px;}
+
+.AutoWebChgiframeSrc:hover{
+border-radius:5px;transition-duration: 1s;right: 0px;padding: 0 -0 0 50px;
+}
+
+.HiddenBox{display: none;}
+
+
+
+#MywalletOVGBox{top: 0px;right: -130px;width:auto;height:auto;padding:15px 25px 15px 15px;z-index: 6;position: fixed;transition-duration: 3s;border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;background-color: rgba(0, 0, 0,0);color: rgba(255, 255, 255,.9);}
+
+
+
+#MywalletOVGBox:hover{right: -15px;background-color: rgba(0, 0, 0,.8);}
+
+
+
+/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+
+
+.divleftFram,.divleftFram2,.divleftFram3,.divleftFram4 {resize: ;z-index: 1;position: fixed;transition-duration: 6s;}
+
+
+
+.divleftFram .dropBox:hover,
+.divleftFram2 .dropBox:hover,
+.divleftFram3 .dropBox:hover,
+.divleftFram4 .dropBox:hover{z-index: 6;}
+
+
+.divleftFram {top: 0px;left: 0px;bottom: 0px;right:**;height:100%;width:calc(100px);}
+.divleftFram .dropBox {height:50%;width:calc(100%);}
+
+.divleftFram2 {top: 0px;left: 100px;bottom: 0px;right:**;height:100%;width:calc(100px);}
+.divleftFram2 .dropBox {height:33.333%;width:calc(100%);}
+
+
+.divleftFram3 {top: 0px;left: 200px;bottom: 0px;right:**;height:100%;width:calc(100% - 200px);}
+.divleftFram3 .dropBox {height:100%;width:calc(50%);float: left ;}
+
+
+
+.divleftFram4 {	z-index: 1;position: fixed;top: 0px;left: ;bottom: 0px;right:-100px;height:100%;width:calc(100px);}
+.divleftFram4 .dropBox {height:100px;width:calc(100%);}
+
+
+/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
