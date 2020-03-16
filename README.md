@@ -6,7 +6,7 @@
 
 # 2 如何使用AutoWeb?
 
-[google play]() | [App stor]() | [windows10]()
+[google play]() | [App stor]() | [windows10](https://mega.nz/#!ZIxWnS6L!EwHXGomOtK_HeUMry_OK3spk6XQIbjZsYmohZCbHLUI)
 
 
 # 3 AutoWeb如何實現無償收入?
@@ -42,7 +42,12 @@ https://www.youtube.com/watch?v=Yx39Nv1f5lA
 
 # AutoWeb
 
-[AutoWeb--自動收入程式](https://mega.nz/#!pVREHApJ!yTa6_JbOITrL3OtsmEn2Y5HgmbITyTWu6NK8fTycj9k)
+
+
+[AutoWeb-自動收入程式20200316.exe](https://mega.nz/#!ZIxWnS6L!EwHXGomOtK_HeUMry_OK3spk6XQIbjZsYmohZCbHLUI)
+
+
+
 
 [AutoWeb-Ai酒吧管理系統202003010640.exe](https://mega.nz/#!lQp1CTDL!tEx4R8w5K_bTOgYtKrFkLOpz9bpNSbNVxX8mAryCues)
 
@@ -67,10 +72,7 @@ https://www.youtube.com/watch?v=Yx39Nv1f5lA
 
 ---
 
-
-[AutoWeb_A_20200309.zip](https://mega.nz/#!YFwzzLSJ!sNWu4A5KEvdxYfUnqgP8ivvS9xGSwqn34RJT0iQ2g3s)
-
-
+[AutoWeb-自動收入程式20200316.exe](https://mega.nz/#!ZIxWnS6L!EwHXGomOtK_HeUMry_OK3spk6XQIbjZsYmohZCbHLUI)
 
 
 
