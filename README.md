@@ -6,12 +6,12 @@
 
 # 2 如何使用AutoWeb?
 
-[google play]() | [App stor]() | [windows10](https://mega.nz/#!ZIxWnS6L!EwHXGomOtK_HeUMry_OK3spk6XQIbjZsYmohZCbHLUI)
+[Autoplay手機錢包|google play](# 5 成為開發者) | [App stor](# 5 成為開發者) | [AutoWeb自動收入程式|windows10](https://mega.nz/#!ZIxWnS6L!EwHXGomOtK_HeUMry_OK3spk6XQIbjZsYmohZCbHLUI)
 
 
 # 3 AutoWeb如何實現無償收入?
 
-您只需打開APP，程式自動背景執行，程式會自己找尋各類網賺，自動完成工作。
+您只需打開APP，程式自動背景執行、自己找尋各類網賺，自動完成工作。
 
 程式會自動建立私密收款帳戶。透過加密操作，金錢自動轉達您的銀行戶口。
 
