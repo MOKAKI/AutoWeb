@@ -6,7 +6,11 @@
 
 # 2 如何使用AutoWeb?
 
-[Autoplay手機錢包|google play](# 5 成為開發者) | [App stor](# 5 成為開發者) | [AutoWeb自動收入程式|windows10](https://mega.nz/#!ZIxWnS6L!EwHXGomOtK_HeUMry_OK3spk6XQIbjZsYmohZCbHLUI)
+[Autoplay手機錢包|google play](# 5 成為開發者)
+
+[App stor](#5成為開發者)
+
+[AutoWeb自動收入程式|windows10](https://mega.nz/#!ZIxWnS6L!EwHXGomOtK_HeUMry_OK3spk6XQIbjZsYmohZCbHLUI)
 
 
 # 3 AutoWeb如何實現無償收入?
