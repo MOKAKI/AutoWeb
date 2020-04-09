@@ -31,7 +31,7 @@
 
 # 5 成為開發者
 
-[_ATW202004070517.zip](https://mega.nz/file/ZcpDCaIA#3a0eW9h8pwg40mrAvAnjXBJMVBN7nLhGIJ2__gH_Sec)
+[_ATW202004091819.zip](https://mega.nz/file/ZFx0zCCL#LBLctjGRziTjmztSEQacXXvUouOL3L__5_szmNn2vTk)
 
 
 
@@ -45,12 +45,6 @@ https://www.youtube.com/watch?v=Yx39Nv1f5lA
 
 
 # AutoWeb
-
-
-
-[AutoWeb-自動收入程式20200316.exe](https://mega.nz/#!ZIxWnS6L!EwHXGomOtK_HeUMry_OK3spk6XQIbjZsYmohZCbHLUI)
-
-
 
 
 [AutoWeb-Ai酒吧管理系統202003010640.exe](https://mega.nz/#!lQp1CTDL!tEx4R8w5K_bTOgYtKrFkLOpz9bpNSbNVxX8mAryCues)
