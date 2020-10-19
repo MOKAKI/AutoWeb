@@ -1,0 +1,389 @@
+好米信息科技(香港)有限公司-網頁開發．App編寫．客戶管理系統. 庫存系統. 視像直播系統. 雲端解決方案</title>
+
+
+我們的服務</a>
+網站開發</a>
+網上商店</a>
+手機應用</a></li>
+                    <li><a href="#">微信小程序</a></li>
+
+                    <li><a href="#">擴增實景</a></li>
+
+                    <li><a href="#">區塊鏈</a></li>
+
+                    <li><a href="#">遙距營商系統</a></li>
+                    <li><a href="#">直播系統</a></li>
+                  </ul>
+                </li>
+                <li class="has-children active">
+                  <a href="index.html">政府資助</a>
+                  <ul class="dropdown">
+                    <li><a href="#">TVP 科技券</a></li>
+                    <li><a href="#">D-Biz 遙距營商計劃</a></li>
+                    <li><a href="#">ReTAAS 零售業科技應用支援計劃</a></li>
+                  </ul>
+                </li>
+                <li class="has-children active">
+                  <a href="contact.html">聯絡我們</a>
+                  <ul class="dropdown">
+                    <li><a href="#">銷售熱線</a></li>
+                    <li><a href="#">意見投訴</a></li>
+                    <li><a href="#">社群</a></li>
+                    <li class="has-children">
+                      <a href="#">媒體</a>
+                      <ul class="dropdown">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">instagram</a></li>
+                        <li><a href="#">淘寶</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+
+          <div class="icons">
+            <a href="contact.html" class=""><span class="icon-translate"></span></a>
+            <a href="contact.html" class="icons-btn d-inline-block"><span class="icon-heart-o"></span></a>
+            <a href="#" class="site-menu-toggle js-menu-toggle ml-3 d-inline-block d-lg-none"><span class="icon-menu"></span></a>
+          </div>
+
+
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="site-blocks-cover" data-aos="fade">
+      <div class="container">
+
+        <div class="row align-items-center">
+          <div class="col-lg-5 text-center">
+            <div class="featured-hero-product w-100">
+              <h1 class="mb-2">限時優惠</h1>
+
+              <h4 >
+                <strong style=" float: left;">基本網站</strong></br>
+
+                <p><a>
+                <font>
+                3個頁面(主頁/產品列表/聯絡我們)</br>
+                1年網頁寄存服務 </br>
+                主要搜尋器登記 (Google/Yahoo/ Bing)</br>
+
+                一鍵 whatsapp店主功能</br>
+                Facebook 專頁 / instagram 相簿 / Google 翻譯</br>
+                PC / 手機版模式顯示 
+                </font>
+                </br>
+                <strong >*不包網址</strong>
+
+
+            </h4>
+              <div class="price mt-3 mb-5"><strong>$498</strong> <del>$4,998</del></div>
+              <p><a href="#" class="btn btn-outline-primary rounded-0">查詢</a> <a href="#" class="btn btn-primary rounded-0">立即購買</a></p>
+            </div>  
+          </div>
+          <div class="col-lg-7 align-self-end text-center text-lg-right">
+            <img src="AKI/31.png" alt="Image" class="img-fluid img-1">
+          </div>
+          
+        </div>
+      </div>
+      
+    </div>
+
+  
+    <div class="products-wrap border-top-0">
+      <div class="container-fluid">
+        <div class="row no-gutters products">
+          <div class="col-6 col-md-6 col-lg-4">
+            <a href="#" class="item">
+              <span class="tag">NEW</span>
+              <img src="images/product_1.jpg" alt="Image" class="img-fluid">
+              <div class="item-info">
+                <h3>基本網站限時優惠</h3>
+                <span class="collection d-block">
+                3個頁面、1年網頁寄存服務、主要搜尋器登記、一鍵 whatsapp店主功能
+                *不包網址
+                </span>
+
+
+
+                <strong class="price">$498<del>$4,998</del></strong>
+              </div>
+            </a>
+          </div>
+          <div class="col-6 col-md-6 col-lg-4">
+            <a href="#" class="item">
+              
+              <img src="images/product_2.jpg" alt="Image" class="img-fluid">
+              <div class="item-info">
+                <h3>網站開發</h3>
+                <span class="collection d-block">後台系統、購物車、、、、、會員系統、1年網頁寄存服務、主要搜尋器登記、一鍵 whatsapp店主功能..</span>
+                <strong class="price">$20,000up</strong>
+              </div>
+            </a>
+          </div>
+          <div class="col-6 col-md-6 col-lg-4">
+            <a href="#" class="item">
+              <img src="images/product_3.jpg" alt="Image" class="img-fluid">
+              <div class="item-info">
+                <h3>手機應用</h3>
+                <span class="collection d-block">
+                  會員系統、服務預約、網上商店、遊戲、支援多種電子貨幣
+                </span>
+                <strong class="price">$20,000up</strong>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-6 col-md-6 col-lg-4">
+            <a href="#" class="item">
+              <img src="images/product_1.jpg" alt="Image" class="img-fluid">
+              <div class="item-info">
+                <h3>微信小程序</h3>
+                <span class="collection d-block">微信小程序，是一种不需要下载即可使用的应用。我們可根據您的需求開發，助您開拓中國微信市場。</span>
+                <strong class="price">$5,000up</strong>
+              </div>
+            </a>
+          </div>
+          <div class="col-6 col-md-6 col-lg-4">
+            <a href="#" class="item">
+              <img src="images/product_2.jpg" alt="Image" class="img-fluid">
+              <div class="item-info">
+                <h3>區塊鏈應用程式</h3>
+                <span class="collection d-block">
+                  區塊鏈 (亦稱為分散式總帳科技)是一個基於先進的加密技術和點對點網路構建的軟件平台，能提供安全、可靠及可互相協作的應用。 
+
+                </span>
+                <strong class="price">$20,000up</strong>
+              </div>
+            </a>
+          </div>
+          <div class="col-6 col-md-6 col-lg-4">
+            <a href="#" class="item">
+              <img src="images/product_3.jpg" alt="Image" class="img-fluid">
+              <div class="item-info">
+                <h3>數據收集及分析</h3>
+                <span class="collection d-block">數據是今天成功的關鍵。要從成千上萬的信息中發現有價值的信息，同時需要數據挖掘和專業領域的知識。</span>
+                <strong class="price">$9.50</strong>
+              </div>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    
+    <div class="site-blocks-cover inner-page py-5"  data-aos="fade">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-4 ml-auto order-lg-2 align-self-start">
+            <div class="site-block-cover-content">
+            <h2 class="sub-title">#New Summer Collection 2019</h2>
+            <h1>Jacket</h1>
+            <p><a href="#" class="btn btn-black rounded-0">Shop Now</a></p>
+            </div>
+          </div>
+          <div class="col-lg-8 order-1 align-self-end">
+            <img src="images/model_woman_1.png" alt="Image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section">
+      <div class="container">
+        <div class="row">
+          <div class="title-section text-center col-12">
+            <h2 class="text-uppercase">Collections</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 block-3 products-wrap">
+            <div class="nonloop-block-3 owl-carousel">
+              
+              <div class="product">
+                <a href="#" class="item">
+                  <img src="images/product_1.jpg" alt="Image" class="img-fluid">
+                  <div class="item-info">
+                    <h3>The Shoe</h3>
+                    <span class="collection d-block">Summer Collection</span>
+                    <strong class="price">$9.50</strong>
+                  </div>
+                </a>
+              </div>
+
+              <div class="product">
+                <a href="#" class="item">
+                  <span class="tag">Sale</span>
+                  <img src="images/product_2.jpg" alt="Image" class="img-fluid">
+                  <div class="item-info">
+                    <h3>Marc Jacobs Bag</h3>
+                    <span class="collection d-block">Summer Collection</span>
+                    <strong class="price">$9.50 <del>$30.00</del></strong>
+                  </div>
+                </a>
+              </div>
+
+              <div class="product">
+                <a href="#" class="item">
+                  <img src="images/product_3.jpg" alt="Image" class="img-fluid">
+                  <div class="item-info">
+                    <h3>The  Belt</h3>
+                    <span class="collection d-block">Summer Collection</span>
+                    <strong class="price">$9.50</strong>
+                  </div>
+                </a>
+              </div>
+
+              <div class="product">
+                <a href="#" class="item">
+                  <img src="images/product_1.jpg" alt="Image" class="img-fluid">
+                  <div class="item-info">
+                    <h3>The Shoe</h3>
+                    <span class="collection d-block">Summer Collection</span>
+                    <strong class="price">$9.50</strong>
+                  </div>
+                </a>
+              </div>
+
+              <div class="product">
+                <a href="#" class="item">
+                  <span class="tag">Sale</span>
+                  <img src="images/product_2.jpg" alt="Image" class="img-fluid">
+                  <div class="item-info">
+                    <h3>Marc Jacobs Bag</h3>
+                    <span class="collection d-block">Summer Collection</span>
+                    <strong class="price">$9.50 <del>$30.00</del></strong>
+                  </div>
+                </a>
+              </div>
+
+              <div class="product">
+                <a href="#" class="item">
+                  <img src="images/product_3.jpg" alt="Image" class="img-fluid">
+                  <div class="item-info">
+                    <h3>The  Belt</h3>
+                    <span class="collection d-block">Summer Collection</span>
+                    <strong class="price">$9.50</strong>
+                  </div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="site-blocks-cover inner-page py-5"  data-aos="fade">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 ml-auto order-lg-2 align-self-start">
+            <div class="site-block-cover-content">
+            <h2 class="sub-title">#New Summer Collection 2019</h2>
+            <h1>New Denim Coat</h1>
+            <p><a href="#" class="btn btn-black rounded-0">Shop Now</a></p>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 align-self-end">
+            <img src="images/model_5.png" alt="Image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer custom-border-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
+            
+            <div class="block-7">
+              <h3 class="footer-heading mb-4">About Us</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quae reiciendis distinctio voluptates sed dolorum excepturi iure eaque, aut unde.</p>
+            </div>
+            <div class="block-7">
+              <form action="#" method="post">
+                <label for="email_subscribe" class="footer-heading">Subscribe</label>
+                <div class="form-group">
+                  <input type="text" class="form-control py-4" id="email_subscribe" placeholder="Email">
+                  <input type="submit" class="btn btn-sm btn-primary" value="Send">
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-5 ml-auto mb-5 mb-lg-0">
+            <div class="row">
+              <div class="col-md-12">
+                <h3 class="footer-heading mb-4">Quick Links</h3>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <ul class="list-unstyled">
+                  <li><a href="#">Sell online</a></li>
+                  <li><a href="#">Features</a></li>
+                  <li><a href="#">Shopping cart</a></li>
+                  <li><a href="#">Store builder</a></li>
+                </ul>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <ul class="list-unstyled">
+                  <li><a href="#">Mobile commerce</a></li>
+                  <li><a href="#">Dropshipping</a></li>
+                  <li><a href="#">Website development</a></li>
+                </ul>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <ul class="list-unstyled">
+                  <li><a href="#">Point of sale</a></li>
+                  <li><a href="#">Hardware</a></li>
+                  <li><a href="#">Software</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-6 col-lg-3">
+            <div class="block-5 mb-5">
+              <h3 class="footer-heading mb-4">Contact Info</h3>
+              <ul class="list-unstyled">
+                <li class="address">203 Fake St. Mountain View, San Francisco, California, USA</li>
+                <li class="phone"><a href="tel://23923929210">+2 392 3929 210</a></li>
+                <li class="email">emailaddress@domain.com</li>
+              </ul>
+            </div>
+
+            
+          </div>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" class="text-primary">Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+          </div>
+          
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
